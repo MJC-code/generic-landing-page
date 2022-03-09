@@ -1,2 +1,3 @@
 # generic-landing-page
-Webpage following template of Odin Project Landing Page
+This is my attempt at recreating the default layout and look from the Odin Project Landing Page project.
+
