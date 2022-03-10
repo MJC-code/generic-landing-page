@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
     box-sizing: border-box;
     margin: 0px;
     
@@ -11,6 +12,7 @@ ul {
     margin: 0;
     gap: 16px;
     display: flex;
+    font-size: 18px;
 }
 
 a:link, a:visited {
@@ -78,6 +80,7 @@ a:link, a:visited {
     flex-direction: column;
     padding: 16px;
     align-items: center;
+    justify-content: center;
 }
 
 .info-image {
@@ -85,7 +88,6 @@ a:link, a:visited {
     border: solid #3882F6 4px;
     border-radius: 8px;
     color: #E5E7EB;
-    align-self: stretch;
     align-items: center;
     padding: 8px;
     width: 150px;
@@ -95,17 +97,66 @@ a:link, a:visited {
     flex: 1 1 auto;
 }
 
-.quote-container p {
+.quote-container {
     background-color: #E5E7EB;
+    padding: 72px;
+    margin: 0px;
+    
+}
+
+.quote-container p {
     font-weight: 300;
     font-style: italic;
     font-size: 36px;
-    padding: 64px;
-    display: flex;
 }
 
-.quote-box {
-    display:flex
+.quote-author {
+    font-size: 18px;
+    font-weight: 900;
+    text-align: right;
+}
+
+.call-to-action-container {
+    padding: 32px 64px;
+
+}
+
+.call-to-action-box {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-size: 24px;
+    font-weight: 900;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 48px;
+    align-items: center;
+}
+
+.call-to-action-box p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color:#E5E7EB;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.call-to-action-box .button {
+    border:#F9FAF8 solid 2px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 8px 16px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color:#E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    
+    
 }
 h1 {
     margin: 0px;
